@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.407531316/NDK_DEBUG/delimiter=;
+environment/project/com.android.toolchain.gcc.407531316/NDK_DEBUG/operation=replace
+environment/project/com.android.toolchain.gcc.407531316/NDK_DEBUG/value=0
+environment/project/com.android.toolchain.gcc.407531316/append=true
+environment/project/com.android.toolchain.gcc.407531316/appendContributed=true

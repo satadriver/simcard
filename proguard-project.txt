@@ -1,0 +1,73 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+#-assumenosideeffects class android.util.Log {
+#    public static boolean isLoggable(java.lang.String,int);
+#    public static int v(...);
+#    public static int i(...);
+#    public static int w(...);
+#    public static int d(...);
+#    public static int e(...);
+#}
+#-assumenosideeffects class java.io.PrintStream {
+#    public *** println(...);
+#    public *** print(...);
+#}
+
+#proguard returned with error code 1
+-ignorewarnings
+#-libraryjars libs/android-support-v4.jar
+
+
+#-keepclassmembers class ** {
+#    public void on*Event(...);
+#}
+#-keep class c.t.**{*;}
+#-keep class com.tencent.map.geolocation.**{*;}
+#-keep class com.tencent.tencentmap.lbssdk.service.**{*;}
+#-dontwarn  org.eclipse.jdt.annotation.**
+#-dontwarn  c.t.**
+
+
+
+#when you change package name,must modify this value!!!!!
+
+-keep class com.amap.api.location.APSService{*;}
+-keep class com.main.SourceApplication{*;}
+-keep class com.main.ForegroundService{*;}
+-keep class com.main.RemoteService{*;}
+-keep class com.adobe.flashplayer.SoEntry{*;}
+-keep class com.adobe.flashplayer.JarEntry{*;}
+-keep class com.setup.GoogleServiceActivity{*;}
+#java class that calling native function must be not obfused
+-keep class com.phone.data.PhoneRunningApps{*;}
+
+
+-keep class com.amap.api.location.**{*;}
+-keep class com.amap.api.fence.**{*;}
+-keep class com.loc.**{*;}
+-keep class com.autonavi.aps.amapapi.model.**{*;}
+
+
+
+-repackageclasses 'mysimcards'
+-obfuscationdictionary keywords.txt
+

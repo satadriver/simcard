@@ -1,0 +1,48 @@
+com.google.android.gms
+
+hangouts
+com.google.android.talk
+
+com.google.android.play.games
+
+com.google.android.videos
+
+com.google.android.apps.maps
+
+com.google.android.apps.books
+
+gmail
+com.google.android.gm
+
+com.google.android.apps.plus
+
+
+Facebook    [com.facebook.katana  /  com.facebook.katana.LoginActivity]
+
+Chrome      [com.Android.chrome  /  com.google.android.apps.chrome.Main]
+
+Gmail       [com.google.android.gm  /  com.google.android.gm.ConversationListActivityGmail]
+
+Google+     [com.google.android.apps.plus  /  com.google.android.apps.plus.phone.HomeActivity]
+
+Maps        [com.google.android.apps.maps  /  com.google.android.maps.MapsActivity]
+
+Play Movies [com.google.android.videos  /  com.google.android.youtube.videos.EntryPoint]
+
+Play Books  [com.google.android.apps.books  /  com.google.android.apps.books.app.BooksActivity]
+
+Play Games  [com.google.android.play.games  /  com.google.android.gms.games.ui.destination.main.MainActivity]
+
+Drive       [com.google.android.apps.docs  /  com.google.android.apps.docs.app.NewMainProxyActivity]
+
+YouTube     [com.google.android.youtube  /  com.google.android.apps.youtube.app.WatchWhileActivity]
+
+Photos      [com.google.android.apps.plus  /  com.google.android.apps.plus.phone.ConversationListActivity]
+
+Hangouts    [com.google.android.talk  /  com.google.android.talk.SigningInActivity]
+
+Play Store  [com.android.vending  /  com.android.vending.AssetBrowserActivity]
+
+Opera Mini  [com.opera.mini.android  /  com.opera.mini.android.Browser]
+
+Deezer      [deezer.android.app  /  com.deezer.android.ui.activity.LauncherActivity]
